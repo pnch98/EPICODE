@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Sign Up</title>
+</head>
+<body style="background-color: darkslateblue">
+    <center>
+        <img src="https://cdn.dribbble.com/users/14268/screenshots/21424265/af54f859-8288-46b0-a288-b94d9f3b52d8_4x.png?resize=400x0"
+             width="50" />
+        <h1 style="display: inline; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 34px; color: palegreen">αMusic</h1>
+        <hr size="2" width="45%" color="palegreen">
+
+        <br />
+        <h2 style="font-family: 'Times New Roman', Times, serif; font-size: 30px; color: palegreen">
+            Registrati ed ascolta i tuoi artisti preferiti!
+        </h2>
+        <form onsubmit="alert('Registrazione inviata!')" ; style="font-family: 'Times New Roman', Times, serif; color: palegreen">
+
+            <div>
+                Nome
+                <input type="text" , placeholder="Mario" />
+                Cognome
+                <input type="text" , placeholder="Rossi" />
+            </div>
+            <br />
+            <div>
+                Data di nascita
+                <input type="date" />
+            </div>
+            <div>
+                <br />
+                Numero di telefono
+                <input type="text" ; placeholder="0000000000" />
+            </div>
+            <br />
+            <div>
+                Indirizzo email
+                <input type="email" , placeholder="mariorossi@gmail.com" />
+            </div>
+            <br />
+            <div>
+                Password
+                <input type="password" , placeholder="********" />
+            </div>
+            <br />
+            Dicci di più sui tuoi gusti musicali.
+            <br />
+            <div>
+                Pop
+                <input type="checkbox" />
+                Rock
+                <input type="checkbox" />
+                Rap
+                <input type="checkbox" />
+                <br />
+                Indie
+                <input type="checkbox" />
+                Country
+                <input type="checkbox" />
+                Techno
+                <input type="checkbox" />
+            </div>
+            <br />
+
+            <div>
+                <input type="radio" /> Ho letto e accetto i Termini e le Condizioni.
+            </div>
+            <br />
+            <div>
+                <button type="submit"> Invia registrazione </button>
+            </div>
+
+        </form>
+    </center>
+            
+</body>
+</html>
