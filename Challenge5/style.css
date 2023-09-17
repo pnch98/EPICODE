@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+      body {
+        display: flex;
+        margin: 0;
+        height: 100vh;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .main {
+        width: 100%;
+      }
+
+      .topbar {
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .content {
+        height: 100%;
+      }
+
+      .icon {
+        height: 8vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2em;
+        cursor: pointer;
+      }
+
+      .icon ion-icon {
+        font-size: 2em;
+      }
+
+      .icon p {
+        margin: 0;
+      }
+
+      .icon:not(:first-of-type) {
+        height: 16vh;
+      }
+
+      .logo {
+        height: 50%;
+      }
+
+      .search-wrapper {
+        display: flex;
+        height: 50%;
+        width: 30%;
+      }
+
+      .search-wrapper input {
+        width: 100%;
+        padding: 0 1em;
+      }
+
+      .icons-wrapper {
+        display: flex;
+        align-items: center;
+      }
+
+      .top-icon {
+        font-size: 2em;
+        padding: 0 0.5em;
+        cursor: pointer;
+      }
+
+      .mic-icon {
+        display: flex;
+        align-items: center;
+      }
+
+      .search-btn {
+        padding: 0 0.7em;
+        font-size: 1.3em;
+        display: flex;
+        align-items: center;
+      }
+      .video {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+      }
+      .under-video {
+        display: flex;
+        padding: 3% 0;
+      }
+
+      .account-logo {
+        width: 10%;
+        cursor: pointer;
+      }
+
+      .video-info {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+        
+      }
+      .video-title p {
+        margin: 0;
+        font-weight: 700;
+        font-size: 80%;
+        cursor: pointer;
+      }
+      .video-description p {
+        margin: 0;
+        font-size: 60%;
+        cursor: pointer;
+      }
+      .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-evenly;
+      }
+      .thumb {
+        cursor: pointer;
+      }
